@@ -1,3 +1,6 @@
+/*global styles*/
+
+
 body {
     background-color: #707360; 
 }
@@ -8,8 +11,6 @@ img {
     width: 75%;
 }
 
-
-
 a {
     color: #F2BEA0;
 }
@@ -18,7 +19,9 @@ a:hover {
     color: #631500;
     text-decoration: none;
 }
+
 /*mobile*/
+
 nav {
     background-color: #260B01;
     padding: 10px 0;
@@ -57,9 +60,11 @@ header h1 {
         text-align: right;
         text-decoration: none;
     }
+
  /* Tablet Styles */
 
     @media (min-width: 786px) {
+
         nav {
             text-align: center;
         }
@@ -81,8 +86,11 @@ header h1 {
             margin: 0 auto;
         }
     }
+
 /*desktop*/
+
 @media (min-width: 1024px) {
+
 #container {
     background-color: #707360;
     width: 85%;
@@ -102,6 +110,7 @@ h2, h3, h4 {
 
 p {
     color: #FED6B3;
+}
 }
 /* core styles */
 
@@ -179,5 +188,4 @@ footer {
 hr {
     width: 90%;
     color: solid #2A3827;
-}
 }
