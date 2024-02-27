@@ -1,0 +1,183 @@
+body {
+    background-color: #707360; 
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+}
+
+
+
+a {
+    color: #F2BEA0;
+}
+
+a:hover {
+    color: #631500;
+    text-decoration: none;
+}
+/*mobile*/
+nav {
+    background-color: #260B01;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: #F2BEA0;
+    background-color: #707360;
+    text-align: center;
+    margin: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: fantasy;
+}
+
+header h1 {
+    font-size: 35px;
+    text-shadow: 3px 3px 3px #F2BEA0;
+    }
+
+    footer {
+        padding: 40px 0;
+        text-align: right;
+        text-decoration: none;
+    }
+ /* Tablet Styles */
+
+    @media (min-width: 786px) {
+        nav {
+            text-align: center;
+        }
+        nav li {
+            display: inline-block;
+        }
+
+        .col {
+            width: 60%;
+        }
+
+        #middle {
+            width: 65%;
+            margin: 0 auto;
+        }
+
+        #lower {
+            width: 65%;
+            margin: 0 auto;
+        }
+    }
+/*desktop*/
+@media (min-width: 1024px) {
+#container {
+    background-color: #707360;
+    width: 85%;
+    margin: 40px auto;
+    font-family: fantasy;
+}
+h1 {
+    text-align: center;
+    color: #F2BEA0
+}
+
+h2, h3, h4 {
+    text-align: center;
+    color: #FDD0A9;
+    text-shadow: 3px 3px 3px #631500;
+}
+
+p {
+    color: #FED6B3;
+}
+/* core styles */
+
+nav {
+    background-color: #2A3827;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    display: block;
+    width: 125px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #707360;
+    color: #F2BEA0;
+    margin: center 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: fantasy;
+}
+
+header h1 {
+font-size: 100px;
+text-shadow: 3px 3px 3px #260B01;
+padding: 30px;
+}
+
+main {
+    padding: 20px;
+}
+
+#home{
+    display: flex;
+    padding: 20px;
+    width:50%;
+}
+
+#bottom {
+    display: flex;
+    padding: 20px;
+    width:50%; 
+}
+
+#middle {
+    display: flex;
+}
+
+#lower {
+    display: flex;
+}
+
+.col {
+    width: 50%;
+    padding:20px;
+    color: #FED6B3;
+}
+
+footer {
+    padding: 90px 0;
+    text-align: right;
+    color: #F2BEA0;
+}
+
+hr {
+    width: 90%;
+    color: solid #2A3827;
+}
+}
