@@ -136,7 +136,7 @@ nav li a {
     line-height: 40px;
     background-color: #707360;
     color: #F2BEA0;
-    margin: center 20px;
+    margin: 20px 0 auto;
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
@@ -187,5 +187,4 @@ footer {
 
 hr {
     width: 90%;
-    color: solid #2A3827;
 }
